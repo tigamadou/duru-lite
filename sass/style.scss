@@ -1,0 +1,75 @@
+$primary:#A55EEA;
+$white:#fff;
+
+body{
+    background: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    padding:0px;
+    margin:0px;
+}
+main{
+    width:375px;
+    height: 667px;
+    background: #fff;
+    margin:auto;
+    position: relative;
+}
+.page{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    background-image: url('../images/bkg1.png');
+    .home-overlay{
+        height:100%;
+        width:250px;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: linear-gradient(to botom,rgba(0,0,0.8),rgba(255,255,255,3));
+        .p1{
+            .logo
+                {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom:-30px;
+                    div:first-child {
+                        font-size:8rem;
+                        color:#fff;
+                    }
+                    div:nth-child(2){
+                        font-size:80px;
+                        color:#fff;
+                    }
+                }
+            .modo{
+                color:#fff;
+                text-align: right;
+                font-size:2rem;
+            }
+            }
+        }
+    
+    }
+.button{
+    height:48px;
+    background:#fff;
+    color:#000;    
+    text-decoration: none;
+    margin:15px;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.button.is-primary{
+  background:$primary;
+  color:$white;
+}
