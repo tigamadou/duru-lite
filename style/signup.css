@@ -1,65 +1,3 @@
-.page {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100%;
-  position: absolute;
-  bottom: 0px;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-}
-.page .lyt-p15 {
-  padding: 0px 15px;
-}
-.page .page-head {
-  height: 68px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  box-shadow: 0px 2px 5px rgba(103, 103, 103, 0.1);
-  z-index: 2;
-}
-.page .page-head .nav-item {
-  margin-right: 30px;
-  font-size: 1.2rem;
-  color: #A55EEA;
-  font-weight: 500;
-}
-.page .page-head .nav-item img {
-  height: 30px;
-}
-.page .page-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-.page .page-content {
-  position: absolute;
-  top: 68px;
-  width: 100%;
-  bottom: 68px;
-  overflow: auto;
-  z-index: 1;
-}
-.page .page-content .title {
-  color: #A55EEA;
-}
-.page .page-footer {
-  height: 68px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  box-shadow: 0px -2px 5px rgba(103, 103, 103, 0.1);
-  z-index: 2;
-}
-.page .page-footer .is-bigbuton {
-  height: 68px;
-  border-radius: 0px;
-  cursor: pointer;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -69,8 +7,8 @@ body {
   background-image: url("../images/bkg1.png");
   background-size: cover;
   height: 100vh;
-  padding: 0px;
-  margin: 0px auto;
+  padding: 0;
+  margin: 0 auto;
   min-width: 375px;
   max-width: 500px;
 }
@@ -80,14 +18,6 @@ main {
   background: #fff;
   margin: auto;
   position: relative;
-}
-
-.page {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
 }
 
 .button {
@@ -102,7 +32,7 @@ main {
 }
 
 .button.is-primary {
-  background: #A55EEA;
+  background: #a55eea;
   color: #fff;
 }
 
@@ -110,32 +40,104 @@ main {
   visibility: hidden;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.page .lyt-p15 {
+  padding: 0 15px;
+}
+
+.page .page-head {
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(103, 103, 103, 0.1);
+  z-index: 2;
+}
+
+.page .page-head .nav-item {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  color: #a55eea;
+  font-weight: 500;
+}
+
+.page .page-head .nav-item img {
+  height: 30px;
+}
+
+.page .page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.page .page-content {
+  position: absolute;
+  top: 68px;
+  width: 100%;
+  bottom: 68px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.page .page-content .title {
+  color: #a55eea;
+}
+
+.page .page-footer {
+  height: 68px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(103, 103, 103, 0.1);
+  z-index: 2;
+}
+
+.page .page-footer .is-bigbuton {
+  height: 68px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
 .form .field {
   margin-bottom: 15px;
 }
+
 .form .field .control .input {
   display: block;
   width: 100%;
   max-width: 100%;
   height: 50px;
-  padding: 0px 15px;
-  border: 1px solid #D4D4D4;
+  padding: 0 15px;
+  border: 1px solid #d4d4d4;
   border-radius: 10px;
   cursor: pointer;
 }
+
 .form .field .control .select {
   height: 50px;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
   border-radius: 10px;
   padding-right: 5px;
 }
+
 .form .field .control .select select {
   border: none;
   background: none;
-  padding: 0px 15px;
+  padding: 0 15px;
   height: 50px;
   width: 100%;
   max-width: 100%;
 }
-
-/*# sourceMappingURL=signup.css.map */

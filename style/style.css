@@ -7,8 +7,8 @@ body {
   background-image: url("../images/bkg1.png");
   background-size: cover;
   height: 100vh;
-  padding: 0px;
-  margin: 0px auto;
+  padding: 0;
+  margin: 0 auto;
   min-width: 375px;
   max-width: 500px;
 }
@@ -18,14 +18,6 @@ main {
   background: #fff;
   margin: auto;
   position: relative;
-}
-
-.page {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
 }
 
 .button {
@@ -40,12 +32,10 @@ main {
 }
 
 .button.is-primary {
-  background: #A55EEA;
+  background: #a55eea;
   color: #fff;
 }
 
 .hidden {
   visibility: hidden;
 }
-
-/*# sourceMappingURL=style.css.map */
