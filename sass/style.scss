@@ -1,40 +1,44 @@
-$primary:#A55EEA;
+$primary:#a55eea;
 $white:#fff;
-*{
-    box-sizing: border-box;
-}
-body{
-    background-color: #eaebef;
-    background-image: url('../images/bkg1.png');
-    background-size: cover;
-    height:100vh;
-    padding:0px;
-    margin:0px auto;    
-    min-width:375px;
-    max-width: 500px;
-}
-main{
-    height: 100%;
-    background: #fff;
-    margin:auto;
-    position: relative;
+
+* {
+  box-sizing: border-box;
 }
 
-.button{
-    height:48px;
-    background:#fff;
-    color:#000;    
-    text-decoration: none;    
-    border-radius:10px;
-    display:flex;
-    justify-content: center;
-    align-items: center;    
+body {
+  background-color: #eaebef;
+  background-image: url('../images/bkg1.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  min-width: 375px;
+  max-width: 500px;
 }
 
-.button.is-primary{
-  background:$primary;
-  color:$white;
+main {
+  height: 100%;
+  background: #fff;
+  margin: auto;
+  position: relative;
 }
-.hidden{
-    visibility: hidden;
+
+.button {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.is-primary {
+  background: $primary;
+  color: $white;
+}
+
+.hidden {
+  visibility: hidden;
 }
