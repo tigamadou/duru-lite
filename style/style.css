@@ -22,35 +22,6 @@ main {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url("../images/bkg1.png");
-}
-.page .home-overlay {
-  height: 100%;
-  width: 250px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-image: linear-gradient(to botom, #000001, white);
-}
-.page .home-overlay .p1 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -30px;
-}
-.page .home-overlay .p1 .logo div:first-child {
-  font-size: 8rem;
-  color: #fff;
-}
-.page .home-overlay .p1 .logo div:nth-child(2) {
-  font-size: 80px;
-  color: #fff;
-}
-.page .home-overlay .p1 .modo {
-  color: #fff;
-  text-align: right;
-  font-size: 2rem;
 }
 
 .button {
@@ -58,7 +29,6 @@ main {
   background: #fff;
   color: #000;
   text-decoration: none;
-  margin: 15px;
   border-radius: 10px;
   display: flex;
   justify-content: center;

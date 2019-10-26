@@ -1,0 +1,78 @@
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  width: 375px;
+  height: 667px;
+  background: #fff;
+  margin: auto;
+  position: relative;
+}
+
+.page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.button {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.is-primary {
+  background: #A55EEA;
+  color: #fff;
+}
+
+.mainhome {
+  background-image: url("../images/bkg1.png");
+}
+.mainhome .home-overlay {
+  height: 100%;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(to botom, #000001, white);
+}
+.mainhome .home-overlay .p1 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -30px;
+}
+.mainhome .home-overlay .p1 .logo div:first-child {
+  font-size: 8rem;
+  color: #fff;
+}
+.mainhome .home-overlay .p1 .logo div:nth-child(2) {
+  font-size: 80px;
+  color: #fff;
+}
+.mainhome .home-overlay .p1 .modo {
+  color: #fff;
+  text-align: right;
+  font-size: 2rem;
+}
+.mainhome .home-overlay .p2 .button {
+  margin: 15px;
+}
+
+/*# sourceMappingURL=mainhome.css.map */
