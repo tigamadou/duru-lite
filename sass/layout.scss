@@ -15,6 +15,10 @@
     padding: 0 15px;
   }
 
+  .lyt-p24 {
+    padding: 0 24px;
+  }
+
   .page-head {
     height: 68px;
     display: flex;
@@ -42,6 +46,7 @@
     bottom: 68px;
     overflow: auto;
     z-index: 1;
+    padding-top: 24px;
 
     .title {
       color: $primary;

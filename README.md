@@ -10,7 +10,7 @@
     <br />    
     <br />
     ·
-     <a href="https://genzaraki.github.io/duru-lite/">View Demo</a>
+     <a href="https://raw.githack.com/genzaraki/duru-lite/template/login.html">View Demo</a>
     ·    
   </p>
 </p>
