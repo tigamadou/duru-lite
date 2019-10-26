@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -10,7 +20,7 @@ body {
   padding: 0;
   margin: 0 auto;
   min-width: 320px;
-  max-width: 500px;
+  max-width: 900px;
 }
 
 main {
@@ -45,3 +55,9 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.is-block {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

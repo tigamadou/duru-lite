@@ -1,0 +1,46 @@
+@import "style.scss";
+@import "layout.scss";
+@import "form.scss";
+
+.store {
+  .list {
+    .list-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        margin: 0 0 10px 0;
+      }
+
+      a {
+        color: $light;
+      }
+    }
+
+    .list-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .list-element {
+        width: 48%;
+        max-width: 200px;
+        margin-bottom: 30px;
+
+        .art-work {
+          margin-bottom: 10px;
+        }
+
+        .name {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+
+        .authors {
+          color: $light;
+        }
+      }
+    }
+  }
+}
