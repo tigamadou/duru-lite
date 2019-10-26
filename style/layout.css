@@ -1,0 +1,39 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+}
+.page .lyt-p15 {
+  padding: 0px 15px;
+}
+.page .page-head {
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(103, 103, 103, 0.1);
+}
+.page .page-head .nav-item {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  color: #A55EEA;
+  font-weight: 500;
+}
+.page .page-head .nav-item img {
+  height: 30px;
+}
+.page .page-content .title {
+  color: #A55EEA;
+}
+.page .page-footer {
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px -2px 5px rgba(103, 103, 103, 0.1);
+}
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,33 @@
+@import "mixins.scss";
+
+.form{
+    .field{
+        margin-bottom:15px;
+        .control{
+            .input{
+                display:block;
+                width: 100%;
+                max-width: 100%;
+                height: 50px;
+                padding:0px 15px;
+                border:1px solid $light;
+                border-radius: 10px;
+                cursor:pointer;
+            }
+            .select{
+                height: 50px;
+                border:1px solid $light;
+                border-radius: 10px;
+                padding-right:5px;
+                select{
+                    border:none;
+                    background:none;
+                    padding:0px 15px;
+                    height: 50px;
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

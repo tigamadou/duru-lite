@@ -1,0 +1,29 @@
+.form .field {
+  margin-bottom: 15px;
+}
+.form .field .control .input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  padding: 0px 15px;
+  border: 1px solid #D4D4D4;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form .field .control .select {
+  height: 50px;
+  border: 1px solid #D4D4D4;
+  border-radius: 10px;
+  padding-right: 5px;
+}
+.form .field .control .select select {
+  border: none;
+  background: none;
+  padding: 0px 15px;
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=form.css.map */

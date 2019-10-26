@@ -1,3 +1,113 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+}
+.page .lyt-p15 {
+  padding: 0px 15px;
+}
+.page .page-head {
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(103, 103, 103, 0.1);
+}
+.page .page-head .nav-item {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  color: #A55EEA;
+  font-weight: 500;
+}
+.page .page-head .nav-item img {
+  height: 30px;
+}
+.page .page-content .title {
+  color: #A55EEA;
+}
+.page .page-footer {
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px -2px 5px rgba(103, 103, 103, 0.1);
+}
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  width: 375px;
+  height: 667px;
+  background: #fff;
+  margin: auto;
+  position: relative;
+}
+
+.page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.button {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.is-primary {
+  background: #A55EEA;
+  color: #fff;
+}
+
+.form .field {
+  margin-bottom: 15px;
+}
+.form .field .control .input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  padding: 0px 15px;
+  border: 1px solid #D4D4D4;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form .field .control .select {
+  height: 50px;
+  border: 1px solid #D4D4D4;
+  border-radius: 10px;
+  padding-right: 5px;
+}
+.form .field .control .select select {
+  border: none;
+  background: none;
+  padding: 0px 15px;
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
+}
 
 /*# sourceMappingURL=signup.css.map */

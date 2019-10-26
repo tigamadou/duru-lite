@@ -1,0 +1,43 @@
+@import "mixins.scss";
+.page{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+    height: 100vh;
+    .lyt-p15{
+        padding:0px 15px;
+    }
+    .page-head{
+        height: 68px;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow:0px 2px 5px rgba(#676767,0.1);
+        
+        
+        
+        .nav-item{
+            margin-right:30px; 
+            font-size: 1.2rem;
+            color:$primary;
+            font-weight: 500;        
+            img{
+                height: 30px;
+            }
+        }
+    }
+    .page-content{
+        .title{
+            color:$primary;
+        }
+    }
+    .page-footer{
+        height: 68px;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow:0px -2px 5px rgba(#676767,0.1);
+    }
+}

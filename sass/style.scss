@@ -1,6 +1,8 @@
 $primary:#A55EEA;
 $white:#fff;
-
+*{
+    box-sizing: border-box;
+}
 body{
     background: #000;
     display:flex;
