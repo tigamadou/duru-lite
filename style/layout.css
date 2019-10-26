@@ -32,6 +32,11 @@
 .page .page-head .nav-item img {
   height: 30px;
 }
+.page .page-head .search {
+  float: right;
+  margin-left: auto;
+  margin-right: 0px;
+}
 .page .page-content {
   position: absolute;
   top: 68px;
