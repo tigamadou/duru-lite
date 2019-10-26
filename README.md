@@ -1,4 +1,4 @@
-# duru-lite
+![Screenshot Image](images/screen-shot.png)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -26,12 +26,6 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-![Screenshot Image](images/screen-shot.png)
-  
-
-
 ### Build With
 
 * [Html]()
