@@ -111,44 +111,33 @@ main {
   cursor: pointer;
 }
 
-.mainhome {
-  background-image: url("../images/bkg1.png");
-  background-size: cover;
+.form .field {
+  margin-bottom: 15px;
 }
 
-.mainhome .home-overlay {
-  height: 100%;
-  width: 250px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-image: linear-gradient(to botom, #000001, white);
+.form .field .control .input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.mainhome .home-overlay .p1 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -30px;
+.form .field .control .select {
+  height: 50px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  padding-right: 5px;
 }
 
-.mainhome .home-overlay .p1 .logo div:first-child {
-  font-size: 8rem;
-  color: #fff;
-}
-
-.mainhome .home-overlay .p1 .logo div:nth-child(2) {
-  font-size: 80px;
-  color: #fff;
-}
-
-.mainhome .home-overlay .p1 .modo {
-  color: #fff;
-  text-align: right;
-  font-size: 2rem;
-}
-
-.mainhome .home-overlay .p2 .button {
-  margin: 15px;
+.form .field .control .select select {
+  border: none;
+  background: none;
+  padding: 0 15px;
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
 }
