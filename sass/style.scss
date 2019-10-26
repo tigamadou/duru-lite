@@ -12,7 +12,7 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0 auto;
-  min-width: 375px;
+  min-width: 320px;
   max-width: 500px;
 }
 
@@ -41,4 +41,10 @@ main {
 
 .hidden {
   visibility: hidden;
+}
+
+.vt-cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

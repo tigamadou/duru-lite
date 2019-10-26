@@ -9,7 +9,7 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0 auto;
-  min-width: 375px;
+  min-width: 320px;
   max-width: 500px;
 }
 
@@ -38,6 +38,12 @@ main {
 
 .hidden {
   visibility: hidden;
+}
+
+.vt-cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page {
@@ -74,13 +80,6 @@ main {
 
 .page .page-head .nav-item img {
   height: 30px;
-}
-
-.page .page-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
 
 .page .page-content {
