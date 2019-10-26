@@ -1,6 +1,7 @@
 @import "style.scss";
 .mainhome{
     background-image: url('../images/bkg1.png');
+    background-size: cover;
     .home-overlay{
         height:100%;
         width:250px;

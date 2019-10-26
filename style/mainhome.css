@@ -4,17 +4,15 @@
 
 body {
   background: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   padding: 0px;
-  margin: 0px;
+  margin: 0px auto;
+  min-width: 375px;
+  max-width: 500px;
 }
 
 main {
-  width: 375px;
-  height: 667px;
+  height: 100%;
   background: #fff;
   margin: auto;
   position: relative;
@@ -44,8 +42,13 @@ main {
   color: #fff;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .mainhome {
   background-image: url("../images/bkg1.png");
+  background-size: cover;
 }
 .mainhome .home-overlay {
   height: 100%;
