@@ -57,9 +57,11 @@ main {
   left: 0;
   width: 100%;
 }
+
 .page .lyt-p15 {
   padding: 0 15px;
 }
+
 .page .page-head {
   height: 68px;
   display: flex;
@@ -68,15 +70,18 @@ main {
   box-shadow: 0 2px 5px rgba(103, 103, 103, 0.1);
   z-index: 2;
 }
+
 .page .page-head .nav-item {
   margin-right: 30px;
   font-size: 1.2rem;
   color: #a55eea;
   font-weight: 500;
 }
+
 .page .page-head .nav-item img {
   height: 30px;
 }
+
 .page .page-content {
   position: absolute;
   top: 68px;
@@ -85,9 +90,11 @@ main {
   overflow: auto;
   z-index: 1;
 }
+
 .page .page-content .title {
   color: #a55eea;
 }
+
 .page .page-footer {
   height: 68px;
   position: absolute;
@@ -96,6 +103,7 @@ main {
   box-shadow: 0 -2px 5px rgba(103, 103, 103, 0.1);
   z-index: 2;
 }
+
 .page .page-footer .is-bigbuton {
   height: 68px;
   border-radius: 0;
@@ -105,6 +113,7 @@ main {
 .form .field {
   margin-bottom: 15px;
 }
+
 .form .field .control .input {
   display: block;
   width: 100%;
@@ -115,12 +124,14 @@ main {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .form .field .control .select {
   height: 50px;
   border: 1px solid #d4d4d4;
   border-radius: 10px;
   padding-right: 5px;
 }
+
 .form .field .control .select select {
   border: none;
   background: none;
@@ -129,5 +140,3 @@ main {
   width: 100%;
   max-width: 100%;
 }
-
-/*# sourceMappingURL=signup.css.map */
