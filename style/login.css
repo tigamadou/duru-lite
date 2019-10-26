@@ -130,4 +130,8 @@ main {
   max-width: 100%;
 }
 
-/*# sourceMappingURL=signup.css.map */
+.form {
+  width: 300px;
+}
+
+/*# sourceMappingURL=login.css.map */

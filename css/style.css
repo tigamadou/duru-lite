@@ -1,6 +1,5 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   background-color: #eaebef;
@@ -9,16 +8,14 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0 auto;
-  min-width: 320px;
-  max-width: 500px;
-}
+  min-width: 375px;
+  max-width: 500px; }
 
 main {
   height: 100%;
   background: #fff;
   margin: auto;
-  position: relative;
-}
+  position: relative; }
 
 .button {
   height: 48px;
@@ -28,22 +25,11 @@ main {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .button.is-primary {
   background: #a55eea;
-  color: #fff;
-}
+  color: #fff; }
 
 .hidden {
-  visibility: hidden;
-}
-
-.vt-cent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+  visibility: hidden; }
