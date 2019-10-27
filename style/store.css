@@ -20,7 +20,9 @@ body {
   padding: 0;
   margin: 0 auto;
   min-width: 320px;
-  max-width: 900px;
+  max-width: 598px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
 
 main {
@@ -134,13 +136,13 @@ main {
   max-width: 100%;
   height: 50px;
   padding: 0 15px;
-  border: 1px solid #999;
+  border: 1px solid #f2f3f5;
   border-radius: 10px;
   cursor: pointer;
 }
 .form .field .control .select {
   height: 50px;
-  border: 1px solid #999;
+  border: 1px solid #f2f3f5;
   border-radius: 10px;
   padding-right: 5px;
 }
@@ -202,10 +204,14 @@ main {
 .store .post .head .info .artist {
   margin-bottom: 16px;
   color: #999;
+  font-size: 16px;
 }
 .store .post .head .info .date {
   color: #999;
   font-size: 12px;
+}
+.store .post .plist {
+  margin-bottom: 24px;
 }
 .store .post .plist .element {
   display: flex;
@@ -230,6 +236,68 @@ main {
 }
 .store .post .plist .element .actions img {
   height: 26px;
+}
+.store .post .prvw .head {
+  display: block;
+  margin-bottom: 24px;
+  border: 1px solid #f2f3f5;
+}
+.store .post .prvw .head .title {
+  font-size: 1.5rem;
+  color: #999;
+  padding: 10px;
+  margin: 0px;
+}
+.store .post .prvw .reviews {
+  padding-bottom: 5rem;
+}
+.store .post .prvw .reviews .rlist .element {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+.store .post .prvw .reviews .rlist .element .avatar {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.store .post .prvw .reviews .rlist .element .avatar img {
+  border-radius: 50%;
+}
+.store .post .prvw .reviews .rlist .element .content {
+  flex: 1;
+  border: 1px solid #f2f3f5;
+  border-radius: 10px;
+  padding: 15px;
+  background: rgba(200, 200, 200, 0.05);
+}
+.store .post .prvw .reviews .rlist .element .content .rn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.store .post .prvw .reviews .rlist .element .content .rn .user-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.store .post .prvw .reviews .rlist .element .content .rn .rate {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: red;
+  margin-bottom: 5px;
+}
+.store .post .prvw .reviews .rlist .element .content .rn .rate.is-good {
+  color: #a55eea;
+}
+.store .post .prvw .reviews .rlist .element .content .comment {
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 13px;
+}
+.store .post .prvw .reviews .rlist .element .content .date {
+  color: #999;
+  text-align: right;
 }
 
 /*# sourceMappingURL=store.css.map */

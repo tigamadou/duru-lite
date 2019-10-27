@@ -1,3 +1,4 @@
+@import "mixins/_mixins.scss";
 @import "style.scss";
 @import "layout.scss";
 @import "form.scss";
@@ -14,7 +15,7 @@
       }
 
       a {
-        color: $light;
+        color: $gray;
       }
     }
 
@@ -38,7 +39,7 @@
         }
 
         .authors {
-          color: $light;
+          color: $gray;
         }
       }
     }
@@ -62,15 +63,17 @@
             }
             .artist{
                 margin-bottom: 16px;
-                color:$light;
+                color:$gray;
+                font-size: 16px;
             }
             .date{
-                color:$light;
+                color:$gray;
                 font-size: 12px;
             }
           }
       }
       .plist{
+          margin-bottom:24px;
           .element{
               display:flex;
               justify-content: space-between;
@@ -95,6 +98,82 @@
               .actions{
                   img{
                       height: 26px;
+                  }
+              }
+          }
+      }
+      .prvw{
+        
+       
+          .head{
+              display: block;
+              margin-bottom:24px;
+              //background: $light;
+              border: 1px solid $light;
+              .title{
+                  font-size:1.5rem;
+                  color:$gray;
+                  padding:10px;
+                  margin: 0px;
+                  
+              }
+          }
+          .reviews{
+                padding-bottom:5rem;
+            
+              .rlist{
+                
+                  .element{
+                    display:flex;
+                    align-items: flex-start;
+                    margin-bottom:16px;
+                    
+                   
+                    .avatar{
+                        width: 50px;
+                        padding:5px;
+                        margin-right:10px;
+                       
+                        img{
+                            
+                            border-radius:50%;
+                        }
+                    }
+                    .content{
+                        flex:1;
+                        border: 1px solid $light;
+                    border-radius: 10px;
+                     padding:15px;
+                        background:rgba(200,200,200,0.05);
+                        .rn{
+                            display:flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .user-name{
+                                font-size:14px;
+                                margin-bottom:10px;
+                            }
+                            .rate{
+                                font-size:18px;
+                                font-weight: 800;
+                                margin-bottom:5px;
+                                color:$danger;
+                                margin-bottom:5px;
+                            }
+                            .rate.is-good{
+                                color:$primary;
+                            }
+                        }
+                        .comment{
+                            margin-bottom:10px;
+                            line-height: 20px;
+                            font-size:13px;
+                        }
+                        .date{
+                            color:$gray;
+                            text-align:right;
+                        }
+                    }
                   }
               }
           }
