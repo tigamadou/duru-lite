@@ -105,6 +105,7 @@
 }
 
 .menu .page-content .mlist .mlink {
+  display: block;
   padding: 15px;
   text-align: center;
   color: #a55eea;
