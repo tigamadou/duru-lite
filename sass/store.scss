@@ -299,5 +299,30 @@
         }
       }
     }
+    
+  }
+  .ckt-opts{
+    .chkt-elt{
+      height: 200px;
+      margin-bottom:10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $primary;
+      font-size:1.5rem;
+      font-weight: 800;
+      color:$white;
+    }
+    .chkt-elt.is-disabled{
+      background-color: $light;
+      color:$gray;
+      
+    }
+  }
+  .chkt-sum{
+    display:flex;
+    justify-content: space-between;
+    font-size:18px;
+    margin-bottom:32px;
   }
 }
