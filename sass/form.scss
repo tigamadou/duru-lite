@@ -33,4 +33,22 @@
       }
     }
   }
+  .field.has-addons{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid $light;
+    border-radius: 10px;
+    overflow: hidden;
+    .is-fullwidth{
+      flex: 1;
+    }
+    .control{
+      
+      .input,.select{
+        border: none;
+        border-radius: 0px;
+      }
+    }
+  }
 }

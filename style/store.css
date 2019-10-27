@@ -193,6 +193,21 @@ main {
   width: 100%;
   max-width: 100%;
 }
+.form .field.has-addons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #f2f3f5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.form .field.has-addons .is-fullwidth {
+  flex: 1;
+}
+.form .field.has-addons .control .input, .form .field.has-addons .control .select {
+  border: none;
+  border-radius: 0px;
+}
 
 .store .list .list-title {
   display: flex;
@@ -435,6 +450,12 @@ main {
 .store .ckt-opts .chkt-elt.is-disabled {
   background-color: #f2f3f5;
   color: #999;
+}
+.store .chkt-sum {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 32px;
 }
 
 /*# sourceMappingURL=store.css.map */
