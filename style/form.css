@@ -1,7 +1,6 @@
 .form .field {
   margin-bottom: 15px;
 }
-
 .form .field .control .input {
   display: block;
   width: 100%;
@@ -12,14 +11,12 @@
   border-radius: 10px;
   cursor: pointer;
 }
-
 .form .field .control .select {
   height: 50px;
   border: 1px solid #999;
   border-radius: 10px;
   padding-right: 5px;
 }
-
 .form .field .control .select select {
   border: none;
   background: none;
@@ -28,3 +25,5 @@
   width: 100%;
   max-width: 100%;
 }
+
+/*# sourceMappingURL=form.css.map */
