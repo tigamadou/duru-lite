@@ -106,15 +106,34 @@
             display: inline-block;
           }
         }
-
+        .price{
+          margin-left:auto;
+          margin-right:15px;
+          font-size: 16px;
+        }
         .actions {
           img {
             height: 26px;
           }
+          
+        }
+        .actions.close{
+          img{
+            height:16px;
+          }
         }
       }
     }
-
+    .cartsum{
+      width:50%;
+      margin-left:auto;
+      .top{
+        font-size:2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:30px;
+      }
+    }
     .prvw {
       .head {
         margin-bottom: 24px;
