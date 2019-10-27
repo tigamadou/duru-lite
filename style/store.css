@@ -13,7 +13,7 @@ a {
 }
 
 body {
-  background-color: #eaebef;
+  background: rgba(200, 200, 200, 0.05);
   background-size: cover;
   height: 100vh;
   padding: 0;
@@ -189,7 +189,7 @@ main {
 
 .store .list .list-container .list-element {
   width: 48%;
-  max-width: 250px;
+  max-width: 240px;
   margin-bottom: 30px;
 }
 
@@ -236,13 +236,16 @@ main {
 }
 
 .store .post .plist {
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .store .post .plist .element {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f2f3f5;
+  padding-bottom: 5px;
 }
 
 .store .post .plist .element .link {
