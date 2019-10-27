@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   max-width: 100%;
-  font-family: Arial;
 }
 
 ul {
@@ -73,12 +72,15 @@ main {
   left: 0;
   width: 100%;
 }
+
 .page .lyt-p15 {
   padding: 0 15px;
 }
+
 .page .lyt-p24 {
   padding: 0 24px;
 }
+
 .page .page-head {
   height: 68px;
   display: flex;
@@ -87,20 +89,24 @@ main {
   box-shadow: 0 2px 5px rgba(103, 103, 103, 0.1);
   z-index: 2;
 }
+
 .page .page-head .nav-item {
   margin-right: 30px;
   font-size: 1.2rem;
   color: #a55eea;
   font-weight: 500;
 }
+
 .page .page-head .nav-item img {
   height: 30px;
 }
+
 .page .page-head .search {
   float: right;
   margin-left: auto;
-  margin-right: 0px;
+  margin-right: 0;
 }
+
 .page .page-content {
   position: absolute;
   top: 68px;
@@ -110,9 +116,11 @@ main {
   z-index: 1;
   padding-top: 24px;
 }
+
 .page .page-content .title {
   color: #a55eea;
 }
+
 .page .page-footer {
   height: 68px;
   position: absolute;
@@ -121,6 +129,7 @@ main {
   box-shadow: 0 -2px 5px rgba(103, 103, 103, 0.1);
   z-index: 2;
 }
+
 .page .page-footer .is-bigbuton {
   height: 68px;
   border-radius: 0;
@@ -130,6 +139,7 @@ main {
 .form .field {
   margin-bottom: 15px;
 }
+
 .form .field .control .input {
   display: block;
   width: 100%;
@@ -140,12 +150,14 @@ main {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .form .field .control .select {
   height: 50px;
   border: 1px solid #f2f3f5;
   border-radius: 10px;
   padding-right: 5px;
 }
+
 .form .field .control .select select {
   border: none;
   background: none;
@@ -160,64 +172,79 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
 .store .list .list-title h2 {
   margin: 0 0 10px 0;
 }
+
 .store .list .list-title a {
   color: #999;
 }
+
 .store .list .list-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .store .list .list-container .list-element {
   width: 48%;
   max-width: 250px;
   margin-bottom: 30px;
 }
+
 .store .list .list-container .list-element .art-work {
   margin-bottom: 10px;
 }
+
 .store .list .list-container .list-element .name {
   font-size: 18px;
   margin-bottom: 5px;
 }
+
 .store .list .list-container .list-element .authors {
   color: #999;
 }
+
 .store .post .head {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 30px;
 }
+
 .store .post .head .artwork {
   margin-right: 30px;
   max-width: 200px;
 }
+
 .store .post .head .info .name {
-  margin: 0px;
+  margin: 0;
   margin-bottom: 24px;
   font-size: 2rem;
 }
+
 .store .post .head .info .artist {
   margin-bottom: 16px;
   color: #999;
   font-size: 16px;
 }
+
 .store .post .head .info .date {
   color: #999;
   font-size: 12px;
 }
+
 .store .post .plist {
   margin-bottom: 24px;
 }
+
 .store .post .plist .element {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .store .post .plist .element .link {
   font-size: 16px;
   display: flex;
@@ -227,50 +254,60 @@ main {
   overflow: hidden;
   line-height: 26px;
 }
+
 .store .post .plist .element .link .title {
   color: #000;
 }
+
 .store .post .plist .element .link .n {
   width: 50px;
   display: inline-block;
 }
+
 .store .post .plist .element .actions img {
   height: 26px;
 }
+
 .store .post .prvw .head {
-  display: block;
   margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid #f2f3f5;
 }
-.store .post .prvw .head .title {
+
+.store .post .prvw .head .rtitle {
   font-size: 1.5rem;
   color: #999;
   padding: 10px;
-  margin: 0px;
+  margin: 0;
 }
-.store .post .prvw .head .n {
+
+.store .post .prvw .head .ravn {
   font-size: 13px;
   color: #a55eea;
 }
+
 .store .post .prvw .reviews {
   padding-bottom: 5rem;
 }
+
 .store .post .prvw .reviews .rlist .element {
   display: flex;
   align-items: flex-start;
   margin-bottom: 16px;
 }
+
 .store .post .prvw .reviews .rlist .element .avatar {
   width: 50px;
   padding: 5px;
   margin-right: 10px;
 }
+
 .store .post .prvw .reviews .rlist .element .avatar img {
   border-radius: 50%;
 }
+
 .store .post .prvw .reviews .rlist .element .content {
   flex: 1;
   border: 1px solid #f2f3f5;
@@ -278,33 +315,36 @@ main {
   padding: 15px;
   background: rgba(200, 200, 200, 0.05);
 }
+
 .store .post .prvw .reviews .rlist .element .content .rn {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .store .post .prvw .reviews .rlist .element .content .rn .user-name {
   font-size: 14px;
   margin-bottom: 10px;
 }
+
 .store .post .prvw .reviews .rlist .element .content .rn .rate {
   font-size: 18px;
   font-weight: 800;
   margin-bottom: 5px;
   color: red;
-  margin-bottom: 5px;
 }
+
 .store .post .prvw .reviews .rlist .element .content .rn .rate.is-good {
   color: #a55eea;
 }
+
 .store .post .prvw .reviews .rlist .element .content .comment {
   margin-bottom: 10px;
   line-height: 20px;
   font-size: 13px;
 }
+
 .store .post .prvw .reviews .rlist .element .content .date {
   color: #999;
   text-align: right;
 }
-
-/*# sourceMappingURL=store.css.map */
