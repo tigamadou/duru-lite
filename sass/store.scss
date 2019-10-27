@@ -106,34 +106,39 @@
             display: inline-block;
           }
         }
-        .price{
-          margin-left:auto;
-          margin-right:15px;
+
+        .price {
+          margin-left: auto;
+          margin-right: 15px;
           font-size: 16px;
         }
+
         .actions {
           img {
             height: 26px;
           }
-          
         }
-        .actions.close{
-          img{
-            height:16px;
+
+        .actions.close {
+          img {
+            height: 16px;
           }
         }
       }
     }
-    .cartsum{
-      width:50%;
-      margin-left:auto;
-      .top{
-        font-size:2rem;
+
+    .cartsum {
+      width: 50%;
+      margin-left: auto;
+
+      .top {
+        font-size: 2rem;
         display: flex;
         justify-content: space-between;
-        margin-bottom:30px;
+        margin-bottom: 30px;
       }
     }
+
     .prvw {
       .head {
         margin-bottom: 24px;
@@ -214,6 +219,82 @@
                 text-align: right;
               }
             }
+          }
+        }
+      }
+    }
+  }
+
+  .search-form {
+    .field {
+      position: relative;
+
+      .input {
+        padding-right: 50px;
+      }
+
+      .submit {
+        background: $white;
+        border: 1px solid $light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        .img {
+          height: 18px;
+        }
+      }
+    }
+  }
+
+  .srch-rslt {
+    .srch-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid $light;
+
+      .snbr {
+        color: $gray;
+      }
+    }
+
+    .srchLst {
+      .srelmt {
+        .srelmt-link {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          font-size: 14px;
+          padding-bottom: 5px;
+          border-bottom: 1px solid $light;
+          margin-bottom: 10px;
+
+          .artwork {
+            margin-right: 30px;
+
+            .srch-img {
+              width: 48px;
+              border-radius: 10px;
+            }
+          }
+
+          .authors {
+            color: $gray;
+            font-size: 14px;
+          }
+
+          .srch-date {
+            color: $gray;
+            display: block;
+            font-size: 12px;
+            margin-top: 8px;
           }
         }
       }
