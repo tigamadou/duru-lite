@@ -16,14 +16,15 @@ ul {
 a {
   text-decoration: none;
 }
-
+html{
+  height: 100%;
+}
 body {
   background: $light;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   padding: 0;
   margin: 0 auto;
-  min-width: 320px;
   max-width: 598px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
