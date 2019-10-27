@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   max-width: 100%;
+  font-family: Arial;
 }
 
 ul {
@@ -182,6 +183,53 @@ main {
 }
 .store .list .list-container .list-element .authors {
   color: #999;
+}
+.store .post .head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.store .post .head .artwork {
+  margin-right: 30px;
+  max-width: 200px;
+}
+.store .post .head .info .name {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+.store .post .head .info .artist {
+  margin-bottom: 16px;
+  color: #999;
+}
+.store .post .head .info .date {
+  color: #999;
+  font-size: 12px;
+}
+.store .post .plist .element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.store .post .plist .element .link {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+}
+.store .post .plist .element .link .title {
+  color: #000;
+}
+.store .post .plist .element .link .n {
+  width: 50px;
+  display: inline-block;
+}
+.store .post .plist .element .actions img {
+  height: 26px;
 }
 
 /*# sourceMappingURL=store.css.map */
