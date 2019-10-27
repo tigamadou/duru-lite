@@ -10,7 +10,7 @@
     <br />    
     <br />
     ·
-     <a href="https://rawcdn.githack.com/genzaraki/duru-lite/bc45641aa27c908f0b1499c1cc5894c2a38267e9/index.html">View Demo</a>
+     <a href="https://rawcdn.githack.com/genzaraki/duru-lite/58c4686534b845aef67ed38a79d3a70099e3e63f/index.html">View Demo</a>
     ·    
   </p>
 </p>
