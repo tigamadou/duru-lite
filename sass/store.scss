@@ -26,7 +26,7 @@
 
       .list-element {
         width: 48%;
-        max-width: 200px;
+        max-width: 250px;
         margin-bottom: 30px;
 
         .art-work {
@@ -108,14 +108,20 @@
           .head{
               display: block;
               margin-bottom:24px;
-              //background: $light;
+              display:flex;
+              justify-content: space-between;
+              align-items: center;
               border: 1px solid $light;
               .title{
                   font-size:1.5rem;
                   color:$gray;
                   padding:10px;
-                  margin: 0px;
-                  
+                  margin: 0px;                  
+              }
+              
+              .n{
+                  font-size:13px;
+                color:$primary;
               }
           }
           .reviews{
