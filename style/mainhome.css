@@ -68,6 +68,39 @@ main {
   display: block;
 }
 
+.tabs-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.tabs-nav .tab-link {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  border-bottom: 2px solid #fff;
+}
+.tabs-nav .tab-link.is-active {
+  border-bottom: 2px solid #a55eea;
+}
+
+.mrgl-16 {
+  margin-left: 16px;
+}
+
+.icon.is-24 {
+  height: 24px;
+}
+
+.icon.is-32 {
+  height: 32px;
+}
+
+.icon.is-white {
+  fill: #fff;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -79,15 +112,12 @@ main {
   left: 0;
   width: 100%;
 }
-
 .page .lyt-p15 {
   padding: 0 15px;
 }
-
 .page .lyt-p24 {
   padding: 0 24px;
 }
-
 .page .page-head {
   height: 68px;
   display: flex;
@@ -96,24 +126,20 @@ main {
   box-shadow: 0 2px 5px rgba(103, 103, 103, 0.1);
   z-index: 2;
 }
-
 .page .page-head .nav-item {
   margin-right: 30px;
   font-size: 1.2rem;
   color: #a55eea;
   font-weight: 500;
 }
-
 .page .page-head .nav-item img {
   height: 30px;
 }
-
 .page .page-head .search {
   float: right;
   margin-left: auto;
   margin-right: 0;
 }
-
 .page .page-content {
   position: absolute;
   top: 68px;
@@ -123,11 +149,9 @@ main {
   z-index: 1;
   padding-top: 24px;
 }
-
 .page .page-content .title {
   color: #a55eea;
 }
-
 .page .page-footer {
   height: 68px;
   position: absolute;
@@ -136,7 +160,6 @@ main {
   box-shadow: 0 -2px 5px rgba(103, 103, 103, 0.1);
   z-index: 2;
 }
-
 .page .page-footer .is-bigbuton {
   height: 68px;
   border-radius: 0;
@@ -147,33 +170,27 @@ main {
   background: #fff;
   color: #a55eea;
 }
-
 .menu .page-head {
   box-shadow: none;
 }
-
 .menu .page-head .close {
   float: right;
   margin-left: auto;
   margin-right: 0;
 }
-
 .menu .page-head .close img {
   color: #fff;
 }
-
 .menu .page-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-
 .menu .page-content .mtitle {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 2rem;
 }
-
 .menu .page-content .mlist .mlink {
   display: block;
   padding: 15px;
@@ -186,7 +203,6 @@ main {
   background-image: url("../images/bkg1.png");
   background-size: cover;
 }
-
 .mainhome .home-overlay {
   height: 100%;
   width: 250px;
@@ -196,30 +212,27 @@ main {
   justify-content: space-between;
   background-image: linear-gradient(to botom, #000001, white);
 }
-
 .mainhome .home-overlay .p1 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: -30px;
 }
-
 .mainhome .home-overlay .p1 .logo div:first-child {
   font-size: 8rem;
   color: #fff;
 }
-
 .mainhome .home-overlay .p1 .logo div:nth-child(2) {
   font-size: 80px;
   color: #fff;
 }
-
 .mainhome .home-overlay .p1 .modo {
   color: #fff;
   text-align: right;
   font-size: 2rem;
 }
-
 .mainhome .home-overlay .p2 .button {
   margin: 15px;
 }
+
+/*# sourceMappingURL=mainhome.css.map */
