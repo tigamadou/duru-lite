@@ -303,11 +303,10 @@ main {
   height: 16px;
 }
 .store .post .cartsum {
-  width: 50%;
   margin-left: auto;
 }
 .store .post .cartsum .top {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -437,7 +436,7 @@ main {
   margin-top: 8px;
 }
 .store .ckt-opts .chkt-elt {
-  height: 200px;
+  height: 100px;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;

@@ -24,7 +24,7 @@
                 
                 <div class="page-content ">
                     <div class="post cart">
-
+                        
                         
                         <div class="plist lyt-p24">
                             <ul>
@@ -81,19 +81,18 @@
                             </ul>
                         </div>
                         <div class="cartsum lyt-p24">
-                            <div class="top">
-                                <span class="total">
-                                    TOTAL
-                                </span>
-                                <span class="amount">
-                                    2.97€
-                                </span>
-                            </div>
-                            <div class="bottom">
-                                <a href="strore.checkout.html" class="button  is-primary">
-                                    CHECKOUT
-                                </a>
-                            </div>
+                            <form action="store.checkout.html" class="form">
+                                <div class="top">
+                                    <span class="total">
+                                        TOTAL
+                                    </span>
+                                    <span class="amount">
+                                        2.97€
+                                    </span>
+                                </div>
+                                <input type="submit" class="hidden" id="submit">
+                            </form>
+                            
                         </div>
                        
                     </div>
@@ -102,7 +101,9 @@
                     
                 </div>
                 <div class="page-footer">
-                    
+                    <label for="submit" class="button is-primary  is-bigbuton">
+                        Validate
+                    </label>
                 </div>
             </div>
         </div>
