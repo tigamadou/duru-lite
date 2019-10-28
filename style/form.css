@@ -1,6 +1,7 @@
 .form .field {
   margin-bottom: 15px;
 }
+
 .form .field .control .input {
   display: block;
   width: 100%;
@@ -11,12 +12,14 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
 .form .field .control .select {
   height: 50px;
   border: 1px solid #f2f3f5;
   border-radius: 10px;
   padding-right: 5px;
 }
+
 .form .field .control .select select {
   border: none;
   background: none;
@@ -25,6 +28,7 @@
   width: 100%;
   max-width: 100%;
 }
+
 .form .field.has-addons {
   display: flex;
   justify-content: flex-start;
@@ -33,12 +37,13 @@
   border-radius: 10px;
   overflow: hidden;
 }
+
 .form .field.has-addons .is-fullwidth {
   flex: 1;
 }
-.form .field.has-addons .control .input, .form .field.has-addons .control .select {
-  border: none;
-  border-radius: 0px;
-}
 
-/*# sourceMappingURL=form.css.map */
+.form .field.has-addons .control .input,
+.form .field.has-addons .control .select {
+  border: none;
+  border-radius: 0;
+}

@@ -73,34 +73,41 @@ main {
   display: block;
 }
 
-.tabs-nav{
-  display:flex;
+.tabs-nav {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom:30px;
-  .tab-link{
+  margin-bottom: 30px;
+
+  .tab-link {
     display: block;
     font-size: 16px;
-    padding:5px;
-    border-bottom:2px solid $white;
+    padding: 5px;
+    border-bottom: 2px solid $white;
   }
-  .tab-link.is-active{
-    border-bottom:2px solid $primary;
+
+  .tab-link.is-active {
+    border-bottom: 2px solid $primary;
   }
 }
-.mrgl-16{
-  margin-left: 16px;;
+
+.mrgl-16 {
+  margin-left: 16px;
 }
-.icon.is-24{
+
+.icon.is-24 {
   height: 24px;
 }
-.icon.is-32{
+
+.icon.is-32 {
   height: 32px;
 }
-.icon.is-white{
-  fill:#fff;
+
+.icon.is-white {
+  fill: #fff;
 }
-.tx-gray{
+
+.tx-gray {
   color: $gray;
 }

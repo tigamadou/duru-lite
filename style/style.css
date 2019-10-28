@@ -75,12 +75,14 @@ main {
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
+
 .tabs-nav .tab-link {
   display: block;
   font-size: 16px;
   padding: 5px;
   border-bottom: 2px solid #fff;
 }
+
 .tabs-nav .tab-link.is-active {
   border-bottom: 2px solid #a55eea;
 }
@@ -104,5 +106,3 @@ main {
 .tx-gray {
   color: #999;
 }
-
-/*# sourceMappingURL=style.css.map */
