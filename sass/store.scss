@@ -124,6 +124,14 @@
             height: 16px;
           }
         }
+        .actions.download{
+          background-color: $primary;
+          padding: 5px 15px;
+          border-radius: 10px;
+          img {
+            height: 16px;
+          }
+        }
       }
     }
 
@@ -229,27 +237,9 @@
     .field {
       position: relative;
 
-      .input {
-        padding-right: 50px;
-      }
+      
 
-      .submit {
-        background: $white;
-        border: 1px solid $light;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        width: 40px;
-        border-radius: 10px;
-        position: absolute;
-        top: 5px;
-        right: 5px;
-
-        .img {
-          height: 18px;
-        }
-      }
+      
     }
   }
 
@@ -324,5 +314,10 @@
     justify-content: space-between;
     font-size:18px;
     margin-bottom:32px;
+  }
+  .downblk{
+    width: 160px;
+    margin:auto;
+    font-size: 1rem;
   }
 }
