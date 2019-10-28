@@ -101,6 +101,10 @@ main {
   fill: #fff;
 }
 
+.tx-gray {
+  color: #999;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -482,6 +486,76 @@ main {
   width: 160px;
   margin: auto;
   font-size: 1rem;
+}
+.store .player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.store .player .ply-sm {
+  flex: 1;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.store .player .ply-sm .ply-artwork {
+  width: 50px;
+  height: 50px;
+}
+.store .player .ply-sm .ply-cmds {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  margin: 0px 15px;
+}
+.store .player .ply-sm .ply-cmds .ply-name {
+  margin-bottom: 7px;
+}
+.store .player .ply-sm .ply-cmds .ply-prog {
+  width: 100%;
+  height: 5px;
+  background: #999;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+}
+.store .player .ply-sm .ply-cmds .ply-prog .ply-prog-bar {
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 30%;
+  background: #a55eea;
+}
+.store .player .ply-sm .ply-cmds .ply-timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+}
+.store .player .ply-sm .ply-btns {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.store .player .ply-sm .ply-btns .ply-btn {
+  cursor: pointer;
+}
+.store .player .ply-sm .ply-btns .ply-btn .icon {
+  width: 32px;
+  height: 32px;
+}
+.store .player .ply-sm .ply-btns .ply-play {
+  display: none;
+}
+.store .page-footer .player {
+  height: 68px;
 }
 
 /*# sourceMappingURL=store.css.map */

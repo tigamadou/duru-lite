@@ -101,6 +101,10 @@ main {
   fill: #fff;
 }
 
+.tx-gray {
+  color: #999;
+}
+
 .page {
   display: flex;
   flex-direction: column;
