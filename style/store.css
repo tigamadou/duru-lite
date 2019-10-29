@@ -1,0 +1,655 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+body {
+  background: #f2f3f5;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 598px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+main {
+  height: 100%;
+  background: #fff;
+  margin: auto;
+  position: relative;
+}
+
+.button {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.is-primary {
+  background: #a55eea;
+  color: #fff;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.vt-cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-block {
+  display: block;
+}
+
+.tabs-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.tabs-nav .tab-link {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  border-bottom: 2px solid #fff;
+}
+
+.tabs-nav .tab-link.is-active {
+  border-bottom: 2px solid #a55eea;
+}
+
+.mrgl-16 {
+  margin-left: 16px;
+}
+
+.icon.is-24 {
+  height: 24px;
+}
+
+.icon.is-32 {
+  height: 32px;
+}
+
+.icon.is-white {
+  fill: #fff;
+}
+
+.tx-gray {
+  color: #999;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.page .lyt-p15 {
+  padding: 0 15px;
+}
+
+.page .lyt-p24 {
+  padding: 0 24px;
+}
+
+.page .page-head {
+  height: 68px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(103, 103, 103, 0.1);
+  z-index: 2;
+}
+
+.page .page-head .nav-item {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  color: #a55eea;
+  font-weight: 500;
+}
+
+.page .page-head .nav-item img {
+  height: 30px;
+}
+
+.page .page-head .search {
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.page .page-content {
+  position: absolute;
+  top: 68px;
+  width: 100%;
+  bottom: 68px;
+  overflow: auto;
+  z-index: 1;
+  padding-top: 24px;
+}
+
+.page .page-content .title {
+  color: #a55eea;
+}
+
+.page .page-footer {
+  height: 68px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(103, 103, 103, 0.1);
+  z-index: 2;
+}
+
+.page .page-footer .is-bigbuton {
+  height: 68px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.menu {
+  background: #fff;
+  color: #a55eea;
+}
+
+.menu .page-head {
+  box-shadow: none;
+}
+
+.menu .page-head .close {
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.menu .page-head .close img {
+  color: #fff;
+}
+
+.menu .page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu .page-content .mtitle {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.menu .page-content .mlist .mlink {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: #a55eea;
+  font-size: 1.5rem;
+}
+
+.form .field {
+  margin-bottom: 15px;
+}
+
+.form .field .control .input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid #f2f3f5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form .field .control .select {
+  height: 50px;
+  border: 1px solid #f2f3f5;
+  border-radius: 10px;
+  padding-right: 5px;
+}
+
+.form .field .control .select select {
+  border: none;
+  background: none;
+  padding: 0 15px;
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.form .field.has-addons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #f2f3f5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form .field.has-addons .is-fullwidth {
+  flex: 1;
+}
+
+.form .field.has-addons .control .input,
+.form .field.has-addons .control .select {
+  border: none;
+  border-radius: 0;
+}
+
+.store .list .list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store .list .list-title h2 {
+  margin: 0 0 10px 0;
+}
+
+.store .list .list-title a {
+  color: #999;
+}
+
+.store .list .list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.store .list .list-container .list-element {
+  width: 48%;
+  max-width: 260px;
+  margin-bottom: 30px;
+}
+
+.store .list .list-container .list-element .art-work {
+  margin-bottom: 10px;
+}
+
+.store .list .list-container .list-element .name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.store .list .list-container .list-element .authors {
+  color: #999;
+}
+
+.store .post .head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.store .post .head .artwork {
+  margin-right: 30px;
+  max-width: 150px;
+}
+
+.store .post .head .info .name {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 2em;
+}
+
+.store .post .head .info .artist {
+  margin-bottom: 16px;
+  color: #999;
+  font-size: 16px;
+}
+
+.store .post .head .info .date {
+  color: #999;
+  font-size: 12px;
+}
+
+.store .post .plist {
+  margin-bottom: 48px;
+}
+
+.store .post .plist .element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f2f3f5;
+  padding-bottom: 5px;
+}
+
+.store .post .plist .element .link {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+}
+
+.store .post .plist .element .link .title {
+  color: #000;
+}
+
+.store .post .plist .element .link .n {
+  width: 50px;
+  display: inline-block;
+}
+
+.store .post .plist .element .price {
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.store .post .plist .element .actions img {
+  height: 26px;
+}
+
+.store .post .plist .element .actions.close img {
+  height: 16px;
+}
+
+.store .post .plist .element .actions.download {
+  background-color: #a55eea;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.store .post .plist .element .actions.download img {
+  height: 16px;
+}
+
+.store .post .cartsum {
+  margin-left: auto;
+}
+
+.store .post .cartsum .top {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.store .post .prvw .head {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f2f3f5;
+}
+
+.store .post .prvw .head .rtitle {
+  font-size: 1.5rem;
+  color: #999;
+  padding: 10px;
+  margin: 0;
+}
+
+.store .post .prvw .head .ravn {
+  font-size: 13px;
+  color: #a55eea;
+}
+
+.store .post .prvw .reviews {
+  padding-bottom: 5rem;
+}
+
+.store .post .prvw .reviews .rlist .element {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.store .post .prvw .reviews .rlist .element .avatar {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.store .post .prvw .reviews .rlist .element .avatar img {
+  border-radius: 50%;
+}
+
+.store .post .prvw .reviews .rlist .element .content {
+  flex: 1;
+  border: 1px solid #f2f3f5;
+  border-radius: 10px;
+  padding: 15px;
+  background: rgba(200, 200, 200, 0.05);
+}
+
+.store .post .prvw .reviews .rlist .element .content .rn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store .post .prvw .reviews .rlist .element .content .rn .user-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.store .post .prvw .reviews .rlist .element .content .rn .rate {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: red;
+}
+
+.store .post .prvw .reviews .rlist .element .content .rn .rate.is-good {
+  color: #a55eea;
+}
+
+.store .post .prvw .reviews .rlist .element .content .comment {
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.store .post .prvw .reviews .rlist .element .content .date {
+  color: #999;
+  text-align: right;
+}
+
+.store .search-form .field {
+  position: relative;
+}
+
+.store .srch-rslt .srch-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f2f3f5;
+}
+
+.store .srch-rslt .srch-head .snbr {
+  color: #999;
+}
+
+.store .srch-rslt .srchLst .srelmt .srelmt-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f2f3f5;
+  margin-bottom: 10px;
+}
+
+.store .srch-rslt .srchLst .srelmt .srelmt-link .artwork {
+  margin-right: 30px;
+}
+
+.store .srch-rslt .srchLst .srelmt .srelmt-link .artwork .srch-img {
+  width: 48px;
+  border-radius: 10px;
+}
+
+.store .srch-rslt .srchLst .srelmt .srelmt-link .authors {
+  color: #999;
+  font-size: 14px;
+}
+
+.store .srch-rslt .srchLst .srelmt .srelmt-link .srch-date {
+  color: #999;
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.store .ckt-opts .chkt-elt {
+  height: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a55eea;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.store .ckt-opts .chkt-elt.is-disabled {
+  background-color: #f2f3f5;
+  color: #999;
+}
+
+.store .chkt-sum {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.store .downblk {
+  width: 160px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.store .player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store .player .ply-sm {
+  flex: 1;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store .player .ply-sm .ply-artwork {
+  width: 50px;
+  height: 50px;
+}
+
+.store .player .ply-sm .ply-cmds {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  margin: 0 15px;
+}
+
+.store .player .ply-sm .ply-cmds .ply-name {
+  margin-bottom: 7px;
+}
+
+.store .player .ply-sm .ply-cmds .ply-prog {
+  width: 100%;
+  height: 5px;
+  background: #999;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.store .player .ply-sm .ply-cmds .ply-prog .ply-prog-bar {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  background: #a55eea;
+}
+
+.store .player .ply-sm .ply-cmds .ply-timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+}
+
+.store .player .ply-sm .ply-btns {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store .player .ply-sm .ply-btns .ply-btn {
+  cursor: pointer;
+}
+
+.store .player .ply-sm .ply-btns .ply-btn .icon {
+  width: 32px;
+  height: 32px;
+}
+
+.store .player .ply-sm .ply-btns .ply-stop {
+  display: none;
+}
+
+.store .player.playing .ply-sm .ply-btns .ply-play {
+  display: none;
+}
+
+.store .player.playing .ply-sm .ply-btns .ply-stop {
+  display: block;
+}
+
+.store .page-footer .player {
+  height: 68px;
+}

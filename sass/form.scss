@@ -1,0 +1,57 @@
+@import "mixins/_mixins.scss";
+
+.form {
+  .field {
+    margin-bottom: 15px;
+
+    .control {
+      .input {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: 50px;
+        padding: 0 15px;
+        border: 1px solid $light;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .select {
+        height: 50px;
+        border: 1px solid $light;
+        border-radius: 10px;
+        padding-right: 5px;
+
+        select {
+          border: none;
+          background: none;
+          padding: 0 15px;
+          height: 50px;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .field.has-addons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid $light;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .is-fullwidth {
+      flex: 1;
+    }
+
+    .control {
+      .input,
+      .select {
+        border: none;
+        border-radius: 0;
+      }
+    }
+  }
+}

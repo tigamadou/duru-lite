@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #eaebef;
+  background-image: url("../images/bkg1.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  min-width: 375px;
+  max-width: 500px; }
+
+main {
+  height: 100%;
+  background: #fff;
+  margin: auto;
+  position: relative; }
+
+.button {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button.is-primary {
+  background: #a55eea;
+  color: #fff; }
+
+.hidden {
+  visibility: hidden; }

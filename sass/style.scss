@@ -1,0 +1,113 @@
+$primary:#a55eea;
+$white:#fff;
+
+@import "mixins/_mixins.scss";
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+body {
+  background: $light;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 598px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+main {
+  height: 100%;
+  background: #fff;
+  margin: auto;
+  position: relative;
+}
+
+.button {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.is-primary {
+  background: $primary;
+  color: $white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.vt-cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-block {
+  display: block;
+}
+
+.tabs-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+  .tab-link {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    border-bottom: 2px solid $white;
+  }
+
+  .tab-link.is-active {
+    border-bottom: 2px solid $primary;
+  }
+}
+
+.mrgl-16 {
+  margin-left: 16px;
+}
+
+.icon.is-24 {
+  height: 24px;
+}
+
+.icon.is-32 {
+  height: 32px;
+}
+
+.icon.is-white {
+  fill: #fff;
+}
+
+.tx-gray {
+  color: $gray;
+}
